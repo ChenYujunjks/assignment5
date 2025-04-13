@@ -83,8 +83,8 @@ function AirlineRoutes() {
                             height={barchart_inner_height}
                             width={barchart_inner_width}
                             data={airlines}
-                            selectedAirline={selectedAirline}
-                            setSelectedAirline={setSelectedAirline}
+                            selectedAirlineID={selectedAirline}
+                            setSelectedAirlineID={setSelectedAirline}
                         />
                     </svg>
                 </Col>
@@ -103,7 +103,7 @@ function AirlineRoutes() {
                             countries={map}
                             airports={airports}
                             routes={routes}
-                            selectedAirline={selectedAirline}
+                            selectedAirlineID={selectedAirline}
                         />
                     </svg>
                 </Col>
