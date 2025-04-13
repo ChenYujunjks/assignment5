@@ -63,7 +63,7 @@ function AirlineRoutes() {
         <Container>
             <Row className={"justify-content-md-left"}>
                 <Col lg={10}>
-                    {/* 应用 h1Style 样式 */}
+                    {/* apply styles file */}
                     <h1 className={styles.h1Style}>Airlines Routes</h1>
                 </Col>
             </Row>
